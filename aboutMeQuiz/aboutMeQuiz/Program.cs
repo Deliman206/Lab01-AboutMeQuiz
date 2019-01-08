@@ -10,12 +10,12 @@ namespace aboutMeQuiz
         static void Main(string[] args)
         {
             string[] questions = { "Do I have a dog?", "What is my favorite sport?", "How many siblings do I have.", "What state did I go to college?", "What is my favorite color?" };
-            string[] answersList = { "Yes\nNo", "Baseball\nFootball\nSoccer\nHockey", "Zero\nOne\nTwo\nThree", "California\nColorado\nOregon\nTexas", "Blue\nGreen\nPurple\nRed" };
+            string[] answersList = { "Yes\nNo", "Baseball\nFootball\nSoccer\nHockey\n\n", "Zero\nOne\nTwo\nThree\n\n", "California\nColorado\nOregon\nTexas\n\n", "Blue\nGreen\nPurple\nRed\n\n" };
             string[] answersCorrect = { "Yes", "Football", "Zero", "Colorado", "Blue" };
             bool[] userCorrectness = new bool[5];
             int questionCount = 0;
 
-            Console.WriteLine("Welcome to a quiz about Sean! Answer the questions and I will give you a score at the end.");
+            Console.WriteLine("Welcome to a quiz about Sean! Answer the questions and I will give you a score at the end.\n");
             while(questionCount < 5)
             {
                 Console.WriteLine(questions[questionCount]);
@@ -52,6 +52,6 @@ namespace aboutMeQuiz
             }
             return score;
         }
-        static string finalScript(int score) => $"Congragulations, all done! Your score is {score}";
+        static string finalScript(int score) => $"Congragulations, all done! Your score is {score}\n";
     }
 }
