@@ -1,8 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+
 namespace aboutMeQuiz
 {
     class Program
@@ -16,6 +13,9 @@ namespace aboutMeQuiz
             int questionCount = 0;
 
             Console.WriteLine("Welcome to a quiz about Sean! Answer the questions and I will give you a score at the end.\n");
+
+            // This loop handles printing the questions and taking user input in the correct order.
+            // It uses a counter defined in Main to keep track of which question the user is on
             while(questionCount < 5)
             {
                 Console.WriteLine(questions[questionCount]);
@@ -30,6 +30,8 @@ namespace aboutMeQuiz
             Console.WriteLine(z);
             Console.Read();
         }
+
+        // Method for checking whether the user input is correct. 
         static bool correct(string userAnswer, string[] answers, int questionCount)
         {
             try
@@ -43,6 +45,8 @@ namespace aboutMeQuiz
             }
             return false;
         }
+
+        // Method to check how many questions the user got correct.
         static int score(bool[] userCorrectness)
         {
             int score = 0;
@@ -52,6 +56,8 @@ namespace aboutMeQuiz
             }
             return score;
         }
+
+        //Method to print the final score.
         static string finalScript(int score) => $"Congragulations, all done! Your score is {score}\n";
     }
 }
