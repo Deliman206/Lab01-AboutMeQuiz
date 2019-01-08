@@ -1,0 +1,7 @@
+\\Mac\Home\codefellows\dn401\Lab01-AboutMeQuiz\aboutMeQuiz\aboutMeQuiz\bin\Debug\aboutMeQuiz.exe.config
+\\Mac\Home\codefellows\dn401\Lab01-AboutMeQuiz\aboutMeQuiz\aboutMeQuiz\bin\Debug\aboutMeQuiz.exe
+\\Mac\Home\codefellows\dn401\Lab01-AboutMeQuiz\aboutMeQuiz\aboutMeQuiz\bin\Debug\aboutMeQuiz.pdb
+\\Mac\Home\codefellows\dn401\Lab01-AboutMeQuiz\aboutMeQuiz\aboutMeQuiz\obj\Debug\aboutMeQuiz.csprojAssemblyReference.cache
+\\Mac\Home\codefellows\dn401\Lab01-AboutMeQuiz\aboutMeQuiz\aboutMeQuiz\obj\Debug\aboutMeQuiz.csproj.CoreCompileInputs.cache
+\\Mac\Home\codefellows\dn401\Lab01-AboutMeQuiz\aboutMeQuiz\aboutMeQuiz\obj\Debug\aboutMeQuiz.exe
+\\Mac\Home\codefellows\dn401\Lab01-AboutMeQuiz\aboutMeQuiz\aboutMeQuiz\obj\Debug\aboutMeQuiz.pdb
